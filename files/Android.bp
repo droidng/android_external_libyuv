@@ -85,6 +85,7 @@ cc_library {
         "-Wno-unused-parameter",
         "-fexceptions",
         "-DHAVE_JPEG",
+        "-O3",
     ],
 
     shared_libs: ["libjpeg"],
